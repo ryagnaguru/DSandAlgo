@@ -19,11 +19,12 @@ public class Graph {
         System.out.println(graph.graph);
         graph.createEdges("a", "b");
         graph.createEdges("a", "c");
-        graph.createEdges("b", "d");
-        graph.createEdges("c", "e");
-        graph.createEdges("d", "e");
+        graph.createEdges("b", "e");
+        graph.createEdges("c", "f");
+        graph.createEdges("c", "d");
         graph.createEdges("d", "f");
-        graph.createEdges("e", "f");
+        graph.createEdges("d", "e");
+        graph.createEdges("f", "e");
         System.out.println(graph.graph);
 
         graph.bfs("a");
