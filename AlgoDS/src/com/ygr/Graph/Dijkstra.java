@@ -29,6 +29,7 @@ public class Dijkstra {
     }
 
     void dijikstras(String start, String end) {
+        // get always min priority
         Queue<Node> nodes = new PriorityQueue<>((o1, o2) -> o1.weightage.compareTo(o2.weightage));
         Map<String, Integer> distance = new HashMap<>();
         this.graph.keySet().forEach(src -> {
