@@ -1,4 +1,4 @@
-package com.ygr.algos;
+package com.ygr.algos.arrays;
 
 /**
  * Say you have an array for which the ith element is the price of a given stock on day i.

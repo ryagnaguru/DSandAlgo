@@ -1,4 +1,4 @@
-package com.ygr.algos;
+package com.ygr.algos.arrays;
 
 import java.util.HashMap;
 import java.util.Map;
