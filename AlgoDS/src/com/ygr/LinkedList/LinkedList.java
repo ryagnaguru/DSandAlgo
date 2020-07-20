@@ -24,13 +24,11 @@ public class LinkedList {
     }
 
     void delete(int position) {
-
         if (position == 0) {
             if (this.head.next != null) {
                 this.head = this.head.next;
             }
         } else {
-
             Node currentNode = this.head;
             int counter = 0;
             while (currentNode.next != null) {
@@ -38,7 +36,6 @@ public class LinkedList {
                 Node currentNextNode = currentNode.next;
                 currentNode = currentNextNode;
                 counter++;
-
                 if (counter == position) {
                     prevNode.next = currentNode.next;
                 }
